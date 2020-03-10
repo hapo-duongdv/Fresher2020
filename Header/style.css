@@ -1,8 +1,8 @@
-.container {
+.header {
     /* position: relative; */
     background-image: url(./images/banner@2x.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     height: 690px;
     width: 1510px;
@@ -10,11 +10,11 @@
     /* display: flex; */
 }
 
-.flex-container {
+.navbar {
     display: flex;
 }
 
-.btn-signIn {
+.btn-sign-in {
     text-transform: uppercase;
     border: 2px solid rgb(139, 195, 74);
     /* Green */
@@ -29,7 +29,7 @@
     color: rgb(139, 195, 74);
 }
 
-.txt-AboutUs {
+.txt-about-us {
     text-transform: uppercase;
     position: absolute;
     font-size: 10px;
@@ -42,7 +42,7 @@
     font-family: 'Roboto-Regular', arial;
 }
 
-.img-name {
+.img-hapoerp {
     display: flex;
     /* align-items: center;
     justify-content: center; */
@@ -51,7 +51,7 @@
     width: 14%;
 }
 
-.menu-icon {
+.menu-header {
     width: 0;
     margin: auto;
     display: flex;
@@ -126,7 +126,7 @@
     padding-top: 1%;
 }
 
-.btn-start {
+.btn-start-now {
     text-transform: uppercase;
     /* text-align: center; */
     background-image: linear-gradient(to left, rgb(180 236 81), rgb(66 147 33));
