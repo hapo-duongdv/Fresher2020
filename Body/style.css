@@ -17,17 +17,17 @@ body {
   display: flex;
   justify-content: center;
   padding-left: 50%;
-  padding-top: 2%;
+  padding-top: 30px;
 }
 
 .btn-sign-in {
   text-transform: uppercase;
-  border: 2px solid rgb(139, 195, 74);
+  border: 2px solid #8bc34a;
   border-radius: 100px;
   width: 78px;
   height: 32px;
   font-size: 9px;
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   background-color: transparent;
 }
 
@@ -38,7 +38,7 @@ body {
   height: 16px;
   padding-top: 5px;
   padding-right: 1%;
-  color: rgb(40, 50, 56);
+  color: #283238;
   letter-spacing: 1px;
 }
 
@@ -47,14 +47,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2%;
+  padding-top: 35px;
 }
 
 .img-hapoerp {
   display: flex;
   margin: auto;
   margin-top: 100px;
-  width: 13%;
+  width: 12%;
 }
 
 .menu-header {
@@ -63,7 +63,7 @@ body {
   align-items: center;
   justify-content: space-around;
   min-width: 740px;
-  padding-top: 5%;
+  padding-top: 80px;
 }
 
 .img-icon {
@@ -78,14 +78,14 @@ body {
 .img-icon p {
   font-size: 22pt;
   font-weight: 200;
-  color: rgb(40, 50, 56);
+  color: #283238;
   letter-spacing: -0.07px;
   margin-top: 10px;
 }
 
 .img-icon i {
   font-size: 30px;
-  color: rgb(40, 50, 56);
+  color: #283238;
 }
 
 .txt-title-header {
@@ -94,11 +94,12 @@ body {
   font-weight: 400;
   padding-top: 3%;
   font-size: 10pt;
+  color: #283238;
 }
 
 .btn-start-header {
   text-transform: uppercase;
-  background-image: linear-gradient(to left, rgb(180 236 81), rgb(66 147 33));
+  background-image: linear-gradient(to left, #b4ec51, #429321);
   border-radius: 100pt;
   margin: auto;
   display: flex;
@@ -106,9 +107,9 @@ body {
   justify-content: center;
   width: 170px;
   height: 45px;
-  color: rgb(255 255 255);
+  color: #ffffff;
   letter-spacing: 1.33pt;
-  box-shadow: 0pt 2pt 4pt 0pt rgba(0 0 0 0.5);
+  box-shadow: 0pt 2pt 4pt 0pt #d8d8d8;
 }
 
 .paragraph {
@@ -139,7 +140,7 @@ body {
   margin-top: -2%;
   padding-top: 0px;
   padding-left: 2%;
-  color: rgb(68, 68, 68);
+  color: #444444;
 }
 
 .title {
@@ -151,8 +152,8 @@ body {
 
 .title i {
   font-size: 30px;
-  padding-top: 1%;
-  color: rgb(68, 68, 68);
+  padding-top: 3px;
+  color: #444444;
 }
 
 .txt-area {
@@ -167,31 +168,31 @@ body {
 
 .txt-first-para {
   font-style: italic;
-  color: rgb(40, 50, 56);
-  letter-spacing: -0, 03px;
+  color: #283238;
+  letter-spacing: -0,03px;
 }
 
 .txt-sec-para {
   text-align: justify;
   line-height: 14pt;
-  color: rgb(40, 50, 56);
+  color: #283238;
   font-weight: 400;
   font-size: 7pt;
 }
 
 .btn-start-body {
   text-transform: uppercase;
-  background-image: linear-gradient(to left, rgb(180 236 81), rgb(66 147 33));
+  background-image: linear-gradient(to left, #B4EC51, #429321);
   border-radius: 100pt;
-  border: rgba(0 0 0 0.5);
+  border: rgba(0, 0, 0, 0.5);
   display: flex;
   margin-top: 20px;
   justify-content: center;
   width: 170px;
   height: 45px;
-  color: rgb(255 255 255);
+  color: #ffffff;
   letter-spacing: 1.33pt;
-  box-shadow: 0pt 2pt 4pt 0pt rgba(0 0 0 0.5);
+  box-shadow: 0pt 2pt 4pt 0pt rgba(0, 0, 0, 0.5);
   float: left;
 }
 
@@ -202,7 +203,7 @@ body {
 }
 
 .list-title {
-  background-image: linear-gradient(to left, rgb(180 236 81), rgb(66 147 33));
+  background-image: linear-gradient(to left, #B4EC51, #429321);
   height: 250px;
   display: flex;
   align-items: center;
@@ -224,7 +225,7 @@ body {
   border-radius: 50%;
   width: 75px;
   height: 75px;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid #ffffff;
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -234,17 +235,17 @@ body {
 
 .icon-list-title i {
   font-size: 23px;
-  color: rgb(255, 255, 255);
-  letter-spacing: -0, 07px;
+  color: #ffffff;
+  letter-spacing: -0,07px;
 }
 
 .txt-list-title {
   border-radius: 50%;
   width: 26px;
   height: 26px;
-  border: 2px solid rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-  background-color: rgb(124, 179, 66);
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: #7CB342;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -263,10 +264,9 @@ body {
   text-transform: uppercase;
   width: 82px;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   letter-spacing: 1.33px;
   font-size: 16px;
-  font-family: 'Roboto';
 }
 
 .txt-line {
@@ -282,14 +282,14 @@ body {
   text-align: justify;
   font-size: 7pt;
   line-height: 12pt;
-  color: rgb(40, 50, 56);
+  color: #283238;
   margin-top: -2px;
   padding-left: 3%;
 }
 
 .txt-line i {
   font-size: 13px;
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
 }
 
 .our-customer {
@@ -306,7 +306,7 @@ body {
 .our-customer p:first-child {
   font-weight: 200;
   line-height: 20pt;
-  color: rgb(255, 255, 255);
+  color:#ffffff;
   font-size: 22pt;
   margin-top: -5px;
 }
@@ -314,7 +314,7 @@ body {
 .para-customer p {
   font-weight: 300;
   line-height: 25px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   width: 500px;
   font-size: 9pt;
   letter-spacing: -0.03px;
@@ -324,8 +324,8 @@ body {
 
 .para-customer i {
   font-size: 50px;
-  color: rgb(208, 216, 220);
-  letter-spacing: -0, 14px;
+  color: #D0D8DC;
+  letter-spacing: -0,14px;
   text-align: justify;
 }
 
@@ -341,7 +341,6 @@ body {
   align-content: space-between;
   padding-top: 10px;
 }
-
 
 .list-customer {
   display: flex;
@@ -359,7 +358,7 @@ body {
 }
 
 .customers p {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-weight: 300;
   font-size: 12px;
   letter-spacing: -0.03px;
@@ -371,13 +370,13 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid rgb(147, 164, 173);
+  border: 2px solid #93A4AD;
 }
 
 .footer {
   height: 200px;
-  background-color: rgb(57, 71, 78);
-  border: inset rgb(236, 239, 241);
+  background-color: #39474E;
+  border: inset #ECEFF1;
   box-shadow: 0pt 15pt 35pt 0pt rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
@@ -388,18 +387,18 @@ body {
 
 .footer p:nth-child(1) {
   text-transform: uppercase;
-  color: rgb(139, 195, 74);
+  color: #8BC34A;
   font-weight: 400;
   font-size: 10pt;
 }
 
 .footer p {
-  color: rgb(208, 216, 220);
+  color: #D0D8DC;
   font-size: 8pt;
 }
 
 .footer-list-icon {
-  padding-top: 5%;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   min-width: 120px;
@@ -408,4 +407,3 @@ body {
 .footer-list-icon i {
   color: #8bc34a;
 }
-
