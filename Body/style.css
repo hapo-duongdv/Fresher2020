@@ -319,7 +319,7 @@ body {
   font-size: 9pt;
   letter-spacing: -0.03px;
   text-align: justify;
-  padding-top: 4%;
+  padding-top: 20px;
 }
 
 .para-customer i {
@@ -330,7 +330,7 @@ body {
 }
 
 .para-customer i:last-child {
-  padding-top: 14%;
+  padding-top: 90px;
 }
 
 .para-customer {
