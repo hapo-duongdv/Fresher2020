@@ -207,8 +207,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 21%;
+  padding-right: 21%;
 }
 
 .img-list-title {
@@ -222,8 +222,8 @@ body {
 
 .icon-list-title {
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   border: 2px solid rgb(255, 255, 255);
   background-color: transparent;
   display: flex;
@@ -319,13 +319,18 @@ body {
   font-size: 9pt;
   letter-spacing: -0.03px;
   text-align: justify;
+  padding-top: 4%;
 }
 
 .para-customer i {
   font-size: 50px;
-  color: rgb(255, 255, 255);
+  color: rgb(208, 216, 220);
   letter-spacing: -0, 14px;
   text-align: justify;
+}
+
+.para-customer i:last-child {
+  padding-top: 14%;
 }
 
 .para-customer {
@@ -333,14 +338,17 @@ body {
   justify-content: space-around;
   align-items: flex-start;
   min-width: 650px;
+  align-content: space-between;
+  padding-top: 10px;
 }
+
 
 .list-customer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 1000px;
+  width: 900px;
 }
 
 .customers {
