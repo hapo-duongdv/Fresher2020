@@ -193,7 +193,7 @@ body {
   color: #ffffff;
   letter-spacing: 1.33pt;
   box-shadow: 0 2pt 4pt 0 rgba(0, 0, 0, 0.5);
-  float: left;
+  text-align: center;
 }
 
 .img-paragraph-left {
@@ -260,7 +260,7 @@ body {
   align-items: center;
 }
 
-.part p {
+.part span {
   text-transform: uppercase;
   width: 82px;
   text-align: center;
