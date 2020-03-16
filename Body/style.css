@@ -1,6 +1,8 @@
 body {
-  width: 1503px;
+  width: 100%;
   font-family: 'Roboto';
+  overflow-x: hidden;
+  margin: auto;
 }
 
 .flex {
@@ -14,7 +16,6 @@ body {
   background-size: cover;
   height: 680px;
   width: 100%;
-  object-fit: cover;
 }
 
 .navbar {
@@ -366,8 +367,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
 .footer p:nth-child(1) {
