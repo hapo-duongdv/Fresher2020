@@ -18,6 +18,19 @@ body {
   width: 100%;
 }
 
+.btn-start {
+  text-transform: uppercase;
+  background-image: linear-gradient(to left, #b4ec51, #429321);
+  border-radius: 100pt;
+  justify-content: center;
+  width: 170px;
+  height: 45px;
+  color: #ffffff;
+  letter-spacing: 1.33pt;
+  box-shadow: 0 2pt 4pt 0 #d8d8d8;
+  border: rgba(0, 0, 0, 0.5);
+}
+
 .navbar {
   justify-content: center;
   padding-left: 50%;
@@ -98,17 +111,12 @@ body {
 }
 
 .btn-start-header {
-  text-transform: uppercase;
-  background-image: linear-gradient(to left, #b4ec51, #429321);
-  border-radius: 100pt;
   margin: auto;
   margin-top: 10px;
-  justify-content: center;
-  width: 170px;
-  height: 45px;
-  color: #ffffff;
-  letter-spacing: 1.33pt;
-  box-shadow: 0 2pt 4pt 0 #d8d8d8;
+}
+
+.btn-start-header:hover {
+  background-image: linear-gradient(to left, #B4EC51, #d0d8dc);
 }
 
 .paragraph {
@@ -126,7 +134,7 @@ body {
 }
 
 .img-paragraph-right {
-  width: 400px;
+  width: 440px;
   height: 300px;
   padding-left: 2%;
 }
@@ -158,15 +166,16 @@ body {
 }
 
 .text {
-  width: 400px;
+  width: 440px;
   height: 300px;
-  font-size: 9pt;
+  
 }
 
 .txt-first-para {
   font-style: italic;
   color: #283238;
-  letter-spacing: -0,03px;
+  letter-spacing: 0,03px;
+  font-size: 9pt;
 }
 
 .txt-sec-para {
@@ -174,26 +183,19 @@ body {
   line-height: 14pt;
   color: #283238;
   font-weight: 400;
-  font-size: 7pt;
+  font-size: 8pt;
 }
 
 .btn-start-body {
-  text-transform: uppercase;
-  background-image: linear-gradient(to left, #B4EC51, #429321);
-  border-radius: 100pt;
-  border: rgba(0, 0, 0, 0.5);
   margin-top: 20px;
-  justify-content: center;
-  width: 170px;
-  height: 45px;
-  color: #ffffff;
-  letter-spacing: 1.33pt;
-  box-shadow: 0 2pt 4pt 0 rgba(0, 0, 0, 0.5);
-  text-align: center;
+}
+
+.btn-start-body:hover {
+  background-image: linear-gradient(to left, #B4EC51, #d0d8dc);
 }
 
 .img-paragraph-left {
-  width: 400px;
+  width: 440px;
   height: 300px;
   padding-right: 2%;
 }
@@ -203,8 +205,8 @@ body {
   height: 250px;
   align-items: center;
   justify-content: space-between;
-  padding-left: 21%;
-  padding-right: 21%;
+  padding-left: 22%;
+  padding-right: 22%;
 }
 
 .img-list-title {
@@ -217,8 +219,8 @@ body {
 
 .icon-list-title {
   border-radius: 50%;
-  width: 75px;
-  height: 75px;
+  width: 74px;
+  height: 74px;
   border: 2px solid #ffffff;
   background-color: transparent;
   justify-content: center;
@@ -249,15 +251,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 82px;
 }
 
 .part span {
   text-transform: uppercase;
-  width: 82px;
   text-align: center;
   color: #ffffff;
   letter-spacing: 1.33px;
   font-size: 16px;
+  padding-top: 10px;
 }
 
 .txt-line {
@@ -297,13 +300,12 @@ body {
   line-height: 20pt;
   color:#ffffff;
   font-size: 22pt;
-  margin-top: -5px;
 }
 
-.para-customer p {
+.description-customer p {
   font-weight: 300;
   line-height: 25px;
-  color: #ffffff;
+  color: #d0d8dc;
   width: 500px;
   font-size: 9pt;
   letter-spacing: 0.03px;
@@ -311,30 +313,31 @@ body {
   padding-top: 20px;
 }
 
-.para-customer i {
+.description-customer i {
   font-size: 50px;
-  color: #D0D8DC;
+  color: #5b5b5c;
   letter-spacing: 0,14px;
   text-align: justify;
 }
 
-.para-customer i:last-child {
-  padding-top: 90px;
+.description-customer i:last-child {
+  padding-top: 88px;
 }
 
-.para-customer {
+.description-customer {
   justify-content: space-around;
   align-items: flex-start;
   min-width: 650px;
   align-content: space-between;
-  padding-top: 10px;
 }
 
 .list-customer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 900px;
+  width: 1000px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .customers {
@@ -359,6 +362,29 @@ body {
   border: 2px solid #93A4AD;
 }
 
+.pagination {
+  list-style-type: circle;
+  margin-top: -2px;
+  height: 5px;
+  padding: 0;
+  list-style: inside;
+}
+
+.pagination li {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  border:1px solid transparent;
+  /* border:1px solid grey; */
+  list-style-position:inside;
+}
+
+.pagination li::before {
+  content: "\2022";
+  color: #979797;
+  font-size: 2em;
+}
+
 .footer {
   height: 200px;
   background-color: #39474E;
@@ -367,8 +393,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 21%;
+  padding-right: 21%;
 }
 
 .footer p:nth-child(1) {
