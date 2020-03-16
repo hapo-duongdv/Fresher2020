@@ -205,8 +205,8 @@ body {
   height: 250px;
   align-items: center;
   justify-content: space-between;
-  padding-left: 22%;
-  padding-right: 22%;
+  padding-left: 19%;
+  padding-right: 19%;
 }
 
 .img-list-title {
@@ -374,8 +374,6 @@ body {
   display: inline-block;
   width: 20px;
   text-align: center;
-  border:1px solid transparent;
-  /* border:1px solid grey; */
   list-style-position:inside;
 }
 
@@ -393,8 +391,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-left: 21%;
-  padding-right: 21%;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
 .footer p:nth-child(1) {
