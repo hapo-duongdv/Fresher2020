@@ -137,6 +137,7 @@ body {
 
 .img-paragraph img {
  width: 100%;
+ height: 100%;
 }
 
 .img-paragraph {
@@ -154,6 +155,7 @@ body {
   padding-left: 2%;
   color: #444444;
   line-height: 10px;
+  width: 100%;
 }
 
 .title {
